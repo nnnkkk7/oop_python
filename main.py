@@ -10,7 +10,7 @@ class Employee:
 
         Employee.num_of_emps += 1
 
-    ##フルネームをに整形   
+    ##フルネームに整形   
     def fullname(self):
         return '{} {}'.format(self.first, self.last)    
 
